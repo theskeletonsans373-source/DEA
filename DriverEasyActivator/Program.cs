@@ -10,7 +10,7 @@ namespace DriverEasyActivator
         static void Main(string[] args)
         {
             Console.Title = "Driver Easy Activator | github.com/YungSamzy";
-            if (File.Exists($"C:\\Users\\{Environment.UserName}\\AppData\\Roaming\\Easeware\\DriverEasy\\license.dat"))
+            if (File.Exists($"C:\\Users\\jaime manzon\\AppData\\Roaming\\Easeware\\DriverEasy\\license.dat"))
             {
                 MessageBox.Show("Error! Couldn't activate because you already have a license key installed!", "Driver Easy Activator", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
